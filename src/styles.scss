@@ -126,11 +126,30 @@ body {
   background: #fff;
   color: black;
   position: absolute;
-  right: -0.5em;
+  left: -0.5em;
   top: -0.25em;
   z-index: 999;
   box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.15);
   border: solid green .2em;
+}
+
+.note-icon-delete {
+  display: inline-block;
+  min-width: 1.4em;
+  padding: 0 0 .1em 0;
+  border-radius: 50%;
+  font-size: .6em;
+  font-weight: bold;
+  text-align: center;
+  background: red;
+  color: white;
+  position: absolute;
+  right: -0.5em;
+  font-size: medium;
+  top: -0.25em;
+  z-index: 999;
+  box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.15);
+  border: solid red .2em;
 }
 
 .note-badge.voted {
